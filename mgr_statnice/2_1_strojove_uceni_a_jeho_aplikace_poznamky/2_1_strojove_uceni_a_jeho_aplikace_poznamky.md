@@ -24,13 +24,13 @@
 - X - príznaky
 - chceme model ^f, ktorý aproximuje f, kde Y = f(X) + eps, kde eps je šum
 - modely
-    - **parametrické** (lin. regrese) vs **neparametrické** modely (k-NN)
-        - výber funkcie vopred, potom už učenie parametrov
-        - lin. regrese, LDA, Peceptron, Naive Bayes, Simple Neural Networks
+    - **parametrické**
+        - výber funkcie vopred, potom už učenie fixního počtu parametrov
+        - lin. regrese, LDA, Peceptron, Naive Bayes, Simple Neural Networks, **lineární** SVM
         - jednoduchšie, stačí menej dát, ale limitované a horší fit
     - **neparametrické**
-        - alebo to mapovanie zisťujeme počas toho
-        - kNN, rozhodovacie stromy, SVM
+        - struktura modelu je určená daty -- více dat vede ke složitějšímu modelu
+        - kNN, rozhodovacie stromy, SVM **s RBF kernelem**
         - flexibilita, ale pomalšie, viac dát
 - učenie: s učiteľom a bez učiteľa (stromy vs clustrovanie)
 
